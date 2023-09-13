@@ -2,11 +2,13 @@
 / The Sequential 8x8 Multiplier is a Verilog design that implements an 8x8 bit multiplier using a sequential approach. This project aims to provide an efficient and modular solution for performing multiplication operations on 8-bit operands, resulting in a 16-bit product. The design supports various features, including multi-cycle computation, output signaling, and efficient pin utilization./
 
 The project's goal is to build an 8x8 multiplier that takes two 8-bit multiplicands (dataa and datab) as inputs and produces a 16-bit product (product8x8_out). Additionally, the design provides a done flag (done_flag) and seven signals (seg_a, seg_b, seg_c, seg_d, seg_e, seg_f, and seg_g) to drive a 7-segment display. The multiplier operates in a multi-cycle fashion, requiring four clock cycles to complete the full multiplication.
-![image](https://github.com/MahmoudSZahran/Sequential_8x8_multiplier/assets/144821514/49a27bde-e582-4349-8a54-4cd7ed7ca8f5)
 
 
 Functionality
 The multiplier utilizes a sequential approach to perform the multiplication operation. During each of the four clock cycles, a pair of 4-bit slices from dataa and datab is multiplied by a 4x4 multiplier. The resulting 4-bit slices are then accumulated to obtain the final 16-bit product. On the fifth cycle, the fully composed 16-bit product is available at the output (product8x8_out).
+
+![image](https://github.com/MahmoudSZahran/Sequential_8x8_multiplier/assets/144821514/25c4f42a-e328-444f-a3fb-1e5fd6b57d71)
+
 
 
 Mathematical Principle

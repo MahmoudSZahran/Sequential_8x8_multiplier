@@ -37,9 +37,9 @@ In this modified procedure, if the observed bit of A is 0, 00000000 is added to 
 
 By repeating the above procedure until all bits of A are shifted out, the partial result becomes the final multiplication result. To illustrate this procedure, let's consider a 4-bit example. Figure 2 shows the initial state, where A = 1001 and B = 1101 are the operands to be multiplied. At time 0, A is in a shift register with a register for partial results (P) on its left.
 
-![image](https://github.com/MahmoudSZahran/Sequential_8x8_multiplier/assets/144821514/f0f95726-7f59-41a9-a5d2-ddc10c51541e)
+                                          ![image](https://github.com/MahmoudSZahran/Sequential_8x8_multiplier/assets/144821514/f0f95726-7f59-41a9-a5d2-ddc10c51541e)
 
-![image](https://github.com/MahmoudSZahran/Sequential_8x8_multiplier/assets/144821514/16fa1a90-1593-4bca-94c1-18a76927e756)
+  ![image](https://github.com/MahmoudSZahran/Sequential_8x8_multiplier/assets/144821514/16fa1a90-1593-4bca-94c1-18a76927e756)
 
 
 Hardware-Oriented Multiplication Process
